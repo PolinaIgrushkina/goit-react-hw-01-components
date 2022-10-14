@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PolinaIgrushkina/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/PolinaIgrushkina/goit-react-hw-01-components/static/js/main.ba355fa5.js",
+    "main.js": "/PolinaIgrushkina/goit-react-hw-01-components/static/js/main.6a7cf0c0.js",
     "index.html": "/PolinaIgrushkina/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/PolinaIgrushkina/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.ba355fa5.js.map": "/PolinaIgrushkina/goit-react-hw-01-components/static/js/main.ba355fa5.js.map"
+    "main.6a7cf0c0.js.map": "/PolinaIgrushkina/goit-react-hw-01-components/static/js/main.6a7cf0c0.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.ba355fa5.js"
+    "static/js/main.6a7cf0c0.js"
   ]
 }
