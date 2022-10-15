@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 
 function Statistic({label, percentage}) {
   return (
-    <div>
+    <li class="item">
       <span class="label">{label}</span>
       <span class="percentage">{percentage}%</span>
-    </div>);
+    </li>);
 }
 
 Statistic.propTypes = {

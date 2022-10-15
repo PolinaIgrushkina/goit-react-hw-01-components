@@ -5,13 +5,12 @@ function FriendList({friends}) {
   return (
     <ul class="friend-list">
       {friends.map(friend => (
-        <li key={friend.id}>
           <Friend
+            key={friend.id}
             avatar={friend.avatar}
             name={friend.name}
             isOnline={friend.isOnline}
           />
-        </li>
       ))}
     </ul>
   );
@@ -19,6 +18,7 @@ function FriendList({friends}) {
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(PropTypes.object).isRequired,
+  //id: PropTypes.string.isRequired,
 }
 
 export default FriendList;
