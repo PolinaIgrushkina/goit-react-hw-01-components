@@ -8,12 +8,12 @@ function Statistics({title, stats}) {
 
       <ul class="stat-list">
         {stats.map(item => (
-        <li key={item.id} class="item">
-          <Statistic
-            label={item.label}
-            percentage={item.percentage}
-          />
-        </li>
+          <li class="item" key={item.id}>
+            <Statistic
+              label={item.label}
+              percentage={item.percentage}
+            />
+          </li>
       ))}
   </ul>
 </section>
