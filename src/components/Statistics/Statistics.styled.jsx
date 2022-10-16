@@ -38,7 +38,7 @@ justify-content: space-between;
 
 export const StatisticItem = styled.li`
 width: 90px;
-height: 100px;
+max-height: 100px;
 
 display: flex;
 flex-direction: column;
@@ -46,7 +46,7 @@ text-align: center;
 
 padding-top: 15px;
 
-background: ${randomColor()};
+background: ${props => randomColor(props.index)};
 `;
 
 export const Label = styled.span` 

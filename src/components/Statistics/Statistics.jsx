@@ -8,7 +8,7 @@ function Statistics({title, stats}) {
   <Title>{title}</Title>
 
       <StatisticList>
-        {stats.map(item => (
+        {stats.map((item, index) => (
           <Statistic
               key={item.id}
               label={item.label}
