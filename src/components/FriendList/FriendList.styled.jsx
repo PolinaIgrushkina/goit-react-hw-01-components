@@ -7,6 +7,7 @@ margin-top: 20px;
 export const FriendListItem = styled.li`
 display: flex;
 flex-direction: row;
+align-items: center;
 gap: 10px;
 
 width: 270px;
@@ -20,5 +21,16 @@ border-radius: 4px 4px 4px 4px;
 `;
 
 export const Avatar = styled.img`
+border-radius: 25%;
+`;
+
+export const Name = styled.p`
+font-weight: 400;
+font-size: 17px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+`;
+
+export const Status = styled.span` 
 
 `;
